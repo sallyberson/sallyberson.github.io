@@ -68,7 +68,27 @@
       </p>
     </div>
 
+<!-- for mobile use
+-->
+@media (max-width: 768px) {
 
+  .projects-grid {
+    grid-template-columns: 1fr;   /* ONE COLUMN */
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .project-card img {
+    height: auto;      /* stops weird cropping */
+    max-height: 180px; /* shrink images */
+    object-fit: contain;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+
+}
 
   </div>
 </section>
