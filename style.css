@@ -341,7 +341,7 @@ main::after {
   }
 
   .project-card img {
-    height: auto;      
+    height: auto;     
     max-height: 180px; 
     object-fit: contain;
   }
@@ -350,4 +350,5 @@ main::after {
     padding: 16px;
   }
 
+}
 }
